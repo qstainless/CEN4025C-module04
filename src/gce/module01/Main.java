@@ -1,5 +1,6 @@
 package gce.module01;
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
@@ -34,6 +35,27 @@ public class Main {
     }
 
     public static void processArrayList() {
+        ArrayList<Integer> arrayListValues = new ArrayList<>();
+
+        // Add the random numbers to the ArrayList
+        for (int i = 0; i < randomNumberArrayLength; i++){
+            randomInteger = randomNumber.nextInt(randomNumberMaxValue) + 1;
+            arrayListValues.add(randomInteger);
+        }
+
+        System.out.println("Done adding.");
+
+        /*
+         There are several ways to remove elements in an ArrayList. We could
+         use the clear() or removeAll() methods, use an Iterator to remove
+         elements staring with the first index (0), or use a simple while
+         loop to remove them starting at the last element.
+        */
+        while (!arrayListValues.isEmpty()) {
+            arrayListValues.remove(arrayListValues.size() - 1);
+        }
+
+        System.out.println("Done removing.");
     }
 
     public static void processLinkedList() {
