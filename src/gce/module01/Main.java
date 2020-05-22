@@ -25,6 +25,20 @@ public class Main {
     static final int randomNumberMaxValue = 10;
 
     public static void main(String[] args) {
-	// write your code here
+
+        processArrayList();
+
+        processLinkedList();
+
+        processHashTable();
+    }
+
+    public static void processArrayList() {
+    }
+
+    public static void processLinkedList() {
+    }
+
+    public static void processHashTable() {
     }
 }
