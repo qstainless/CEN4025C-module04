@@ -74,7 +74,14 @@ public class Main {
          There are several ways to remove elements in an ArrayList. We could
          use the clear() or removeAll() methods, use an Iterator to remove
          elements staring with the first index (0), or use a simple while
-         loop to remove them starting at the last element.
+         loop to remove them starting at the last element. For purposes of
+         this exercise, given that the removal of elements starting at the
+         first element, even when using a memory efficient Interator instance,
+         would take in excess of 5 hours, I decided to remove the elements
+         from the last to the first. Aside from the built-in clear() methods,
+         this method proved to be more efficient, as it prevents the
+         ArrayList (as well as the LinkedList and Hashtable) from having to
+         reassign all remaining elements to the first index position.
         */
         // Remove the numbers from the ArrayList
         while (!arrayListValues.isEmpty()) {
