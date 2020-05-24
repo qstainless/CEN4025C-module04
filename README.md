@@ -1,4 +1,4 @@
-# Add and remove integers from lists
+# Add and remove integers from collections
 
 ## Overview
 This exercise attempts to implement an application that adds and removes 2 million random integers from collections.
