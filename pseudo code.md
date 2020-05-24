@@ -1,4 +1,4 @@
-## Add and remove integers from lists
+## Add and remove integers from collections
 
 Guillermo Castaneda Echegaray
 
