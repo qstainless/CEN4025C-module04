@@ -22,7 +22,7 @@ While the program does not require JProfile to run, JProfiler was used to measur
 No user interaction needed. The program simple adds and removes the 2 million elements tot he lists, without providing feedback so as to avoid a potential impact in performance profiling.
 
 ## Profiling results
-From a sample of five tests, the method with the longest run time is `processHashTables()`.
+From a sample of five tests, the method with the longest run time is `processHashTable()`.
 
 ## Installation.
 Clone the repo, import it into your favorite Java IDE, and run Main.
